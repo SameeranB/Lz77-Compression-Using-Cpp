@@ -1,7 +1,7 @@
 
-#include<iostream.h>
-#include<conio.h>
 #include<string.h>
+#include <iostream>
+
 using namespace std;
 int main()
 {
@@ -116,7 +116,7 @@ int main()
             lb[i]=str[l]; // adding more elements from the string to look ahead buffer
             i++;
         }
-        if(str!='\0') // when string has not become empty - bring remaining characters to the front
+        if(str!="\0") // when string has not become empty - bring remaining characters to the front
         {
             for(l=0;l<13;l++)
             {
